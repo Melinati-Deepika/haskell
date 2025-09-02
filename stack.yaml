@@ -1,0 +1,5 @@
+# stack.yaml - Modern Setup
+resolver: lts-23.3       # Recent stable LTS Haskell snapshot
+packages:
+- .                      # Current directory contains your Haskell project
+extra-deps: []            # Add any extra packages here if needed
